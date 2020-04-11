@@ -121,12 +121,10 @@ comment:
     type: valine
     app_id: valine_app_id
     app_key: valine_app_key
-    placeholder: ""                 # 可选填
-    notify: false                   # 可选填
-    verify: false                   # 可选填
-    avatar:                         # 可选填
+    placeholder: ''                 # 可选填
+    avatar: ''                      # 可选填
     avatar_force: false             # 可选填
-    meta: ["nick", "mail", "link"]  # 可选填
+    meta: ['nick','mail','link']    # 可选填
     page_size: 10                   # 可选填
     visitor: false                  # 可选填
     highlight: true                 # 可选填
@@ -164,7 +162,7 @@ comment:
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: ShareThis
+    type: sharethis
     # URL to the ShareThis share plugin script
     install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=5e91f99c9d6bcc0012d5bb93&product=sticky-share-buttons'
 # Sidebar configurations.
