@@ -118,9 +118,6 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    # type: disqus
-    # # Disqus shortname
-    # shortname: bytepoem
     type: valine
     app_id: valine_app_id
     app_key: valine_app_key
