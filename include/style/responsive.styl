@@ -2,11 +2,19 @@
  *         Responsive Layout
  * --------------------------------- */
 +widescreen()
+    .is-3-column .container
+        max-width: screen-widescreen - $gap
+        width: screen-widescreen - $gap
+
     .is-1-column .container, .is-2-column .container
         max-width: $desktop - 2 * $gap
         width: $desktop - 2 * $gap
 
 +fullhd()
+    .is-3-column .container
+        max-width: screen-fullhd - 2 * $gap
+        width: screen-fullhd - 2 * $gap
+
     .is-2-column .container
         max-width: $widescreen - 2 * $gap
         width: $widescreen - 2 * $gap
