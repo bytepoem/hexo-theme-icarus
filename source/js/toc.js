@@ -9,7 +9,7 @@ $(document).ready(function () {
     observerTopMargin = docHeight;
     scrollObserver = new IntersectionObserver(scrollCallBack, {
       root: null, // viewpoint
-      rootMargin: docHeight + "px 0px -80% 0px", // cover top 30% of viewport to the top of document
+      rootMargin: docHeight + "px 0px -95% 0px", // cover top 30% of viewport to the top of document
     });
   }
 
