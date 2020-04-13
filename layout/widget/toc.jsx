@@ -93,14 +93,14 @@ class Toc extends Component {
             .sort((a, b) => a - b);
 
         if (keys.length > 0) {
-            result = <ul class="menu-list">
+            result = <ul class="menu-list toc">
                 {keys.map(i => this.renderToc(toc[i]))}
             </ul>;
         }
         if ('id' in toc && 'index' in toc && 'text' in toc) {
             result = <li>
-                <a class="is-flex" href={'#' + toc.id}>
-                    {/* <span class="mr-2">{toc.index}</span> */}
+                <a class="is-flex toc-item" id={`toc-item-${toc.id}`} href={'#' + toc.id}>
+                    {/*<span class="mr-2">{toc.index}</span>*/}
                     <span>{unescapeHTML(toc.text)}</span>
                 </a>
                 {result}
@@ -115,12 +115,13 @@ class Toc extends Component {
             return null;
         }
 
-        return <div class="card widget is-sticky" id="toc">
+        return <div class="card widget toc-scroll is-sticky" id="toc">
             <div class="card-content">
                 <div class="menu">
                     <h3 class="menu-label">{this.props.title}</h3>
                     {this.renderToc(toc)}
                 </div>
+                <script async src="/js/toc.js" charset="utf-8"></script>
             </div>
         </div>;
     }

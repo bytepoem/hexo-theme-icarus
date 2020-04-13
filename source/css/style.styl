@@ -15,3 +15,31 @@
 @import '../../include/style/donate'
 @import '../../include/style/plugin'
 @import '../../include/style/responsive'
+
+/* ---------------------------------
+ *        ToC Extension
+ * --------------------------------- */
+.menu-list {
+    .is-current {
+        color: #3273dc;
+        background: #f5f5f5;
+    }
+    a:hover {
+        color: #3273dc;
+    }
+}
+
+.toc-scroll {
+  max-height: 500px;
+  overflow: auto;
+}
+
+/* ---------------------------------
+ *        ToC Link Position Fix
+ * --------------------------------- */
+:target::before {
+    content: "";
+    display: block;
+    height: 5.25rem;
+    margin: -5.25rem 0 0;
+}
