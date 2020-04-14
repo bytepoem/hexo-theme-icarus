@@ -189,4 +189,7 @@
             link.target = '_blank';
         });
     }
+
+    // load toc fold or show
+    loadToc();
 }(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings));
