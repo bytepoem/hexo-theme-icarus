@@ -119,8 +119,8 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
     type: valine
-    app_id: valine_app_id
-    app_key: valine_app_key
+    app_id: dlqOtkdfzvUsDNUmUaj3aLt6-9Nh9j0Va
+    app_key: oKj3xUBfI4qdTbLrEhRjyCDp
     placeholder: ''                 # 可选填
     avatar: ''                      # 可选填
     avatar_force: false             # 可选填
