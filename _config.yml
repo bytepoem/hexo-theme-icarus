@@ -234,6 +234,7 @@ widgets:
         # Names and URLs of the sites
         links:
             Hexo: 'https://hexo.io'
+            czb1n: 'http://www.czb1n.live'
     # Tags widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -267,10 +268,10 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id: c6c792be1fee43498fea485728aeb7c2
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -285,12 +286,12 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: G-C0JW4PPCKN
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
         # Hotjar site id
-        site_id: 
+        site_id: 1779762
     # Enable the KaTeX math typesetting supprot
     # https://katex.org/
     katex: false
