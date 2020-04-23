@@ -291,7 +291,7 @@ plugins:
     # https://www.hotjar.com/
     hotjar:
         # Hotjar site id
-        site_id: 1779762
+        site_id: 
     # Enable the KaTeX math typesetting supprot
     # https://katex.org/
     katex: false
